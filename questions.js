@@ -43,8 +43,12 @@ const firstChoice = () => {
                 doorCheck()
                 break;
             case 'Look for a window':
+                console.log('🌚 There is no windows 🌚')
+                firstChoice();
                 break;
             case 'Sip a glass of wine':
+                console.log('🌚 time to get drunk 🌚')
+                firstChoice();
                 break;
         }
     });
